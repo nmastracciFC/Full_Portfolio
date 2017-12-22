@@ -1,0 +1,23 @@
+{
+  "name": "mastracci_natalie_portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "grunt": "^1.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "testing"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nmastracciFC/Full_Portfolio.git"
+  },
+  "author": "Natalie Mastracci",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nmastracciFC/Full_Portfolio/issues"
+  },
+  "homepage": "https://github.com/nmastracciFC/Full_Portfolio#readme"
+}
