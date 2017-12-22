@@ -4,9 +4,14 @@
   "description": "Portfolio",
   "main": "Gruntfile.js",
   "dependencies": {
+    "concat": "^1.0.3",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-uglify": "^3.2.1",
+    "grunt-contrib-watch": "^1.0.0"
+  },
+  "devDependencies": {
     "grunt": "^1.0.1"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "testing"
   },
