@@ -19,7 +19,7 @@ function submitMessage($name, $email, $message, $direct) {
 	$extra = "Reply-To: ".$email; //gives you the email to respond to. Click it in the body of the email to be able to respond to the person and not to yourself. Do not click reply it will email yourself.
 	$msg = "name: ".$name."\n\nEmail: ".$email."\n\nComments: ".$message;
 	//\n\n is a line break <br>
-	// mail($to, $subj, $msg, $extra); //order matters $extra does not matter
+	mail($to, $subj, $msg, $extra); //order matters $extra does not matter
 	$direct = $direct."?name={$name}";
 	redirect_to($direct);
 }

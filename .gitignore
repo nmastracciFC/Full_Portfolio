@@ -3,5 +3,7 @@
 /prod/*
 *.ai
 *.psd
+*.ae
 env.php
 storage/*
+package-lock.json
